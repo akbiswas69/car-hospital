@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Hospital - Premium Auto Mechanic  Workshop</title>
+    <meta name="description" content="Anu Car Repair is a premium HTML5 template for auto mechanics, car repair shops, and service centers. Features booking forms, certified tech profiles, and a modern responsive design.">
+    <meta name="keywords" content="car repair, auto mechanic, workshop, vehicle service, collision center, automotive, garage, html template, bootstrap 5, car care">
+    <meta name="author" content="Anu Car Repair">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="icon" href="assets/images/icons/favicon.png" type="image/x-icon">
+    <!-- Bootstrap 5 CSS -->
+    <link href="../../../cdn.jsdelivr.net/npm/bootstrap%405.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <!-- AOS Animation Library CSS -->
+    <link href="../../../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+    <!-- Top Bar -->
+    <div class="top-bar py-2 small d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex gap-4 text-white">
+                <span><i class="fa-solid fa-location-dot me-2 text-brand"></i> 123 Auto Blvd, Tech City</span>
+                <span><i class="fa-regular fa-clock me-2 text-brand"></i> Mon - Sat: 8:00 AM - 7:00 PM</span>
+            </div>
+            <div class="d-flex gap-3 social-links">
+                <a href="#" class="text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top py-3 transition-all">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <span class="fw-bolder fs-4 text-dark font-heading">Car<span class="text-brand">Hospital.</span></span>
+            </a>
+            <button class="navbar-toggler border-0 bg-light rounded-circle shadow-sm p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4 fw-medium">
+                    <li class="nav-item"><a class="nav-link text-dark active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#features">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#reviews">Reviews</a></li>
+                </ul>
+                <a href="tel:5550123456" class="btn btn-brand-outline rounded-pill px-4 py-2 ms-lg-4 fw-bold btn-sm">
+                    <i class="fa-solid fa-phone me-2"></i> 555-012-3456
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO -->
+    <section id="home" class="hero-section position-relative d-flex align-items-center">
+        <!-- Background -->
+        <div class="hero-bg">
+            <img src="assets/images/main-img.jpg" alt="Modern Garage">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container position-relative z-2">
+            <div class="row align-items-center g-5">
+                
+                <!-- Hero Content (Slides from Left) -->
+                <div class="col-lg-7 text-white" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="badge-pill mb-4">
+                        <span class="dot"></span>
+                        <span>Now Accepting Walk-ins</span>
+                    </div>
+                    <h2 class="display-3 fw-bolder mb-4 lh-tight font-heading">
+                        Precision Care for <br>
+                        <span class="text-brand-gradient">Modern Machines.</span>
+                    </h2>
+                    <p class="lead text-white-50 mb-4 pe-lg-5 fw-light">
+                        We blend factory-grade diagnostics with transparent pricing. Experience the 2026 standard in automotive repair with <span class="text-white fw-bold">Car Hospital - Premium Auto Mechanic.</span>.
+                    </p>
+
+                    <div class="hero-actions d-flex flex-wrap align-items-center gap-3 mb-5" data-aos="fade-up" data-aos-delay="180">
+                        <a href="#book-now" class="btn btn-brand btn-lg rounded-pill px-4 px-md-5 py-3 fw-bold shadow-brand">
+                            Book a Service <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                        <a href="tel:5550123456" class="btn btn-glass btn-lg rounded-pill px-4 py-3 fw-semibold">
+                            <i class="fa-solid fa-phone-volume me-2"></i> Call Workshop
+                        </a>
+                    </div>
+                    
+                    <div class="hero-highlights d-flex flex-wrap align-items-center gap-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle-glass">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div>
+                                <span class="d-block fw-bold lh-1">Certified</span>
+                                <small class="text-white-50">Master Techs</small>
+                            </div>
+                        </div>
+                        <div class="vr bg-white opacity-25" style="height: 40px;"></div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="icon-circle-glass">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <span class="d-block fw-bold lh-1">Warranty</span>
+                                <small class="text-white-50">12 Months</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking Form (Slides from Right) -->
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <!-- ID ADDED HERE FOR SCROLLING -->
+                    <div id="book-now" class="booking-card">
+                        
+                        <!-- Glow Effect -->
+                        <div class="glow-effect"></div>
+                        
+                        <div class="card-content bg-white p-4 p-md-5 rounded-4 shadow-2xl position-relative">
+                            <div class="text-center mb-4">
+                                <h3 class="fw-bold text-dark mb-1 font-heading">Get a Free Estimate</h3>
+                                <p class="text-muted small">Fill the form below. Response in 15 mins.</p>
+                            </div>
+
+                            <form id="bookingForm">
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control bg-light border-0" id="floatName" placeholder="Name" required>
+                                            <label for="floatName">Your Full Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input type="tel" class="form-control bg-light border-0" id="floatPhone" placeholder="Phone" required>
+                                            <label for="floatPhone">Phone No.</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control bg-light border-0" id="floatEmail" placeholder="Email">
+                                            <label for="floatEmail">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control bg-light border-0" id="floatCar" placeholder="Car Model">
+                                            <label for="floatCar">Car Year, Make & Model</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <select class="form-select bg-light border-0" id="floatService">
+                                                <option value="general">General Repair</option>
+                                                <option value="oil">Oil Change</option>
+                                                <option value="diag">Diagnostics</option>
+                                                <option value="ac">AC Service</option>
+                                                <option value="brakes">Brakes</option>
+                                            </select>
+                                            <label for="floatService">Service Type</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control bg-light border-0" id="floatDate">
+                                            <label for="floatDate">Preferred Date</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-2">
+                                        <button type="submit" class="btn btn-brand w-100 py-3 rounded-3 fw-bold shadow-brand hover-lift">
+                                            Request Quote <i class="fa-solid fa-arrow-right ms-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: STATS BAR (Fades Up) -->
+    <div class="stats-strip position-relative z-2" data-aos="fade-up" data-aos-offset="-50">
+        <div class="container">
+            <div class="stats-shell row g-4 text-center divide-x">
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bolder text-dark mb-0 display-6 font-heading">4.9/5</h2>
+                    <p class="text-brand small fw-bold text-uppercase mb-0">Google Rating</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bolder text-dark mb-0 display-6 font-heading">15+</h2>
+                    <p class="text-brand small fw-bold text-uppercase mb-0">Years Experience</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bolder text-dark mb-0 display-6 font-heading">5k+</h2>
+                    <p class="text-brand small fw-bold text-uppercase mb-0">Cars Fixed</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bolder text-dark mb-0 display-6 font-heading">100%</h2>
+                    <p class="text-brand small fw-bold text-uppercase mb-0">Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 3: FEATURES (Staggered Fade Up) -->
+    <section id="features" class="py-6 section-soft position-relative overflow-hidden">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-brand fw-bold text-uppercase small letter-spacing-2">The Difference</span>
+                <h2 class="display-5 fw-bold mt-2 text-dark font-heading">Why Choose Car Hospital  Car Repair?</h2>
+                <p class="section-copy text-muted mx-auto mb-0">Premium care, clear communication, and modern technology at every step of your visit.</p>
+            </div>
+            
+            <div class="row g-4 text-center">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-card p-4 rounded-4 h-100 bg-white">
+                        <div class="icon-sq mx-auto mb-4 bg-brand-light text-brand">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <h3 class="fw-bold text-dark font-heading">Master Mechanics</h3>
+                        <p class="text-muted small mb-0">Our team consists of ASE certified master technicians trained on all major brands.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card p-4 rounded-4 h-100 bg-white">
+                        <div class="icon-sq mx-auto mb-4 bg-brand-light text-brand">
+                            <i class="fa-solid fa-tags"></i>
+                        </div>
+                        <h3 class="fw-bold text-dark font-heading">Fair Pricing</h3>
+                        <p class="text-muted small mb-0">Transparent digital quotes 30% lower than dealerships with zero hidden fees.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card p-4 rounded-4 h-100 bg-white">
+                        <div class="icon-sq mx-auto mb-4 bg-brand-light text-brand">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3 class="fw-bold text-dark font-heading">Fast Service</h3>
+                        <p class="text-muted small mb-0">Same-day turnaround for most maintenance services like oil changes and brakes.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card p-4 rounded-4 h-100 bg-white">
+                        <div class="icon-sq mx-auto mb-4 bg-brand-light text-brand">
+                            <i class="fa-solid fa-laptop-medical"></i>
+                        </div>
+                        <h3 class="fw-bold text-dark font-heading">Modern Tech</h3>
+                        <p class="text-muted small mb-0">We use the latest OBD-II scanners to pinpoint issues instantly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: SERVICES GRID (Staggered Fade Up) -->
+    <section id="services" class="py-6 services-section bg-white position-relative overflow-hidden">
+        <div class="container">
+            <div class="row align-items-end mb-5" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <span class="text-brand fw-bold text-uppercase small letter-spacing-2">Our Expertise</span>
+                    <h2 class="display-5 fw-bold mt-2 text-dark font-heading">Premium Services</h2>
+                    <p class="section-copy text-muted mb-0">Complete maintenance and repair solutions designed to keep every journey reliable.</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a href="#book-now" class="btn btn-link text-brand fw-bold text-decoration-none">View All Services <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-card p-4 rounded-4 h-100 bg-white border">
+                        <div class="icon-circle mb-4 text-brand bg-white border">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 font-heading">Diagnostics</h3>
+                        <p class="text-muted mb-4 small">Check engine light on? We use dealer-grade scanners to pinpoint electrical and mechanical faults.</p>
+                        <!-- LINK POINTS TO FORM -->
+                        <a href="#book-now" class="text-dark fw-bold text-decoration-none small stretched-link hover-brand">Book Now <i class="fa-solid fa-arrow-right ms-1 text-brand"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card p-4 rounded-4 h-100 bg-white border">
+                        <div class="icon-circle mb-4 text-brand bg-white border">
+                            <i class="fa-solid fa-oil-can"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 font-heading">Oil & Lube</h3>
+                        <p class="text-muted mb-4 small">Full synthetic oil changes using premium brands like Mobil1. Includes a 21-point inspection.</p>
+                        <a href="#book-now" class="text-dark fw-bold text-decoration-none small stretched-link hover-brand">Book Now <i class="fa-solid fa-arrow-right ms-1 text-brand"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card p-4 rounded-4 h-100 bg-white border">
+                        <div class="icon-circle mb-4 text-brand bg-white border">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 font-heading">Engine Repair</h3>
+                        <p class="text-muted mb-4 small">From timing chains to head gaskets, our master technicians handle heavy engine work.</p>
+                        <a href="#book-now" class="text-dark fw-bold text-decoration-none small stretched-link hover-brand">Book Now <i class="fa-solid fa-arrow-right ms-1 text-brand"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-card p-4 rounded-4 h-100 bg-white border">
+                        <div class="icon-circle mb-4 text-brand bg-white border">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 font-heading">AC & Heating</h3>
+                        <p class="text-muted mb-4 small">Cabin not cooling? We fix leaks, replace compressors, and recharge gas for summer.</p>
+                        <a href="#book-now" class="text-dark fw-bold text-decoration-none small stretched-link hover-brand">Book Now <i class="fa-solid fa-arrow-right ms-1 text-brand"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card p-4 rounded-4 h-100 bg-white border">
+                        <div class="icon-circle mb-4 text-brand bg-white border">
+                            <i class="fa-solid fa-car-burst"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 font-heading">Brake Systems</h3>
+                        <p class="text-muted mb-4 small">Ceramic brake pads, rotor resurfacing, and ABS module repair. Stop safely every time.</p>
+                        <a href="#book-now" class="text-dark fw-bold text-decoration-none small stretched-link hover-brand">Book Now <i class="fa-solid fa-arrow-right ms-1 text-brand"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card p-4 rounded-4 h-100 bg-white border">
+                        <div class="icon-circle mb-4 text-brand bg-white border">
+                            <i class="fa-solid fa-dharmachakra"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3 font-heading">Tires & Alignment</h3>
+                        <p class="text-muted mb-4 small">Laser wheel alignment, balancing, and tire rotation. We stock Michelin & Bridgestone.</p>
+                        <a href="#book-now" class="text-dark fw-bold text-decoration-none small stretched-link hover-brand">Book Now <i class="fa-solid fa-arrow-right ms-1 text-brand"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: HOW IT WORKS -->
+    <section id="process" class="process-section py-6 position-relative overflow-hidden">
+        <div class="container position-relative z-2">
+            <div class="row align-items-end g-4 mb-5">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <span class="section-kicker">Simple Process</span>
+                    <h2 class="display-5 fw-bold text-white mt-2 mb-3 font-heading">From booking to back on the road.</h2>
+                    <p class="text-white-50 section-copy mb-0">A clear, three-step service experience with no confusing jargon or surprise costs.</p>
+                </div>
+                <div class="col-lg-5 text-lg-end" data-aos="fade-left">
+                    <a href="#book-now" class="btn btn-light rounded-pill px-4 py-3 fw-bold">Start Your Booking <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="row g-4 process-grid">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <article class="process-card h-100">
+                        <span class="process-number">01</span>
+                        <div class="process-icon"><i class="fa-regular fa-calendar-check"></i></div>
+                        <h3 class="h4 fw-bold text-white">Book Your Visit</h3>
+                        <p class="text-white-50 mb-0">Choose your service and preferred date using the quick estimate form.</p>
+                    </article>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="120">
+                    <article class="process-card h-100">
+                        <span class="process-number">02</span>
+                        <div class="process-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                        <h3 class="h4 fw-bold text-white">Digital Inspection</h3>
+                        <p class="text-white-50 mb-0">We inspect, diagnose, and explain the recommended work before starting.</p>
+                    </article>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="240">
+                    <article class="process-card h-100">
+                        <span class="process-number">03</span>
+                        <div class="process-icon"><i class="fa-solid fa-car-on"></i></div>
+                        <h3 class="h4 fw-bold text-white">Drive With Confidence</h3>
+                        <p class="text-white-50 mb-0">Approve the quote, receive updates, and collect your road-ready vehicle.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: ABOUT (Split Fade) -->
+    <section id="about" class="about-section py-6 section-soft overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 position-relative" data-aos="fade-right">
+                    <div class="about-visual position-relative ps-4 pt-4">
+                        <!-- Abstract Shape -->
+                        <div class="position-absolute top-0 start-0 bg-brand w-100 h-100 rounded-4 opacity-10" style="transform: rotate(-3deg);"></div>
+                        <img src="assets/images/image.avif" class="img-fluid rounded-4 shadow-lg position-relative z-2" alt="Certified mechanic working in the garage">
+                        <div class="experience-badge position-absolute z-3" data-aos="zoom-in" data-aos-delay="250"><strong>15+</strong><span>Years of<br>Experience</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <span class="text-brand fw-bold text-uppercase small letter-spacing-2">About Anu Car Repair</span>
+                    <h2 class="display-5 fw-bold text-dark mt-2 mb-4 font-heading">We treat your car like <br> it's our <span class="text-decoration-underline text-brand">own.</span></h2>
+                    <p class="text-muted mb-5 lead">
+                        Founded in 2010, we provide dealership-quality service without the markup. We believe in showing you the problem, not just telling you.
+                    </p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-brand fs-4"></i>
+                                <span class="fw-bold text-dark">Original OEM Parts</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-brand fs-4"></i>
+                                <span class="fw-bold text-dark">Transparent Pricing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#book-now" class="btn btn-brand rounded-pill px-5 py-3 fw-bold shadow-brand hover-lift">Book an Inspection <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: REVIEWS -->
+    <section id="reviews" class="py-6 bg-white">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="text-brand fw-bold text-uppercase small letter-spacing-2">Trusted Locally</span>
+                <h2 class="display-5 fw-bold text-dark mt-2 font-heading">Client Stories</h2>
+                <p class="section-copy text-muted mx-auto mb-0">Real feedback from drivers who trust us with the vehicles they rely on every day.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="review-card p-4 p-lg-5 rounded-4 h-100">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="text-warning mb-3 small"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="text-muted fst-italic mb-4">"Absolutely professional. The mechanic explained everything clearly and the price was exactly as quoted."</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="avatar bg-brand text-white rounded-circle d-flex align-items-center justify-content-center fw-bold">JD</div>
+                            <div><h3 class="fw-bold mb-0">John Doe</h3><small class="text-muted">BMW Owner</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="review-card p-4 p-lg-5 rounded-4 h-100">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="text-warning mb-3 small"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="text-muted fst-italic mb-4">"Great service! I booked via the website form and they called me back in 10 minutes. My AC works perfectly now."</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="avatar bg-brand text-white rounded-circle d-flex align-items-center justify-content-center fw-bold">SL</div>
+                            <div><h3 class="fw-bold mb-0">Sarah Lewis</h3><small class="text-muted">Audi Q5</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="review-card p-4 p-lg-5 rounded-4 h-100">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="text-warning mb-3 small"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="text-muted fst-italic mb-4">"Honest mechanics. They didn't try to upsell me on parts I didn't need. The waiting area was also very clean."</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="avatar bg-brand text-white rounded-circle d-flex align-items-center justify-content-center fw-bold">MR</div>
+                            <div><h3 class="fw-bold mb-0">Mike Ross</h3><small class="text-muted">Ford F150</small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: FINAL CTA -->
+    <section class="cta-wrap pb-6 bg-white">
+        <div class="container">
+            <div class="cta-panel position-relative overflow-hidden" data-aos="zoom-in-up">
+                <div class="cta-orb cta-orb-one"></div>
+                <div class="cta-orb cta-orb-two"></div>
+                <div class="row align-items-center g-4 position-relative z-2">
+                    <div class="col-lg-8">
+                        <span class="cta-eyebrow"><i class="fa-solid fa-shield-heart me-2"></i> Reliable service starts here</span>
+                        <h2 class="display-6 fw-bold text-white mt-3 mb-3 font-heading">Ready to give your car the care it deserves?</h2>
+                        <p class="text-white-50 mb-0">Request a free estimate today and get a clear plan from certified technicians.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="#book-now" class="btn btn-light btn-lg rounded-pill px-5 py-3 fw-bold">Get Free Estimate <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer text-white pt-5">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-4 font-heading">Car<span class="text-brand">Hospital.</span></h4>
+                    <p class="text-white-50">Providing high-quality automotive maintenance and repair services. Your safety is our priority.</p>
+                    <div class="footer-social d-flex gap-2 mt-4">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <h5 class="fw-bold mb-3">Links</h5>
+                    <ul class="list-unstyled text-white-50 d-flex flex-column gap-2 small">
+                        <li><a href="#home" class="text-reset text-decoration-none hover-brand">Home</a></li>
+                        <li><a href="#services" class="text-reset text-decoration-none hover-brand">Services</a></li>
+                        <li><a href="#about" class="text-reset text-decoration-none hover-brand">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-3">Contact</h5>
+                    <ul class="list-unstyled text-white-50 d-flex flex-column gap-2 small">
+                        <li><i class="fa-solid fa-location-dot me-2 text-brand"></i> 123 Auto Blvd, City</li>
+                        <li><i class="fa-solid fa-phone me-2 text-brand"></i>+8801712123280</li>
+                        <li><i class="fa-solid fa-envelope me-2 text-brand"></i> info@anuauto.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border-top border-secondary border-opacity-25 py-3 text-center text-white-50 small">
+            &copy; 2026 Car Hospital. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="../../../cdn.jsdelivr.net/npm/bootstrap%405.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="../../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <script>
+        // AOS on-scroll animation settings
+        AOS.init({
+            duration: 550,
+            easing: 'ease-out-cubic',
+            once: true,
+            mirror: false,
+            offset: 80,
+            anchorPlacement: 'top-bottom',
+            disable: window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        });
+    </script>
+    <!-- Main Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+</html>
